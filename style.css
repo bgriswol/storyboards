@@ -29,15 +29,47 @@
 body {
     font-family: "Source Sans Pro"; 
     background-color: #fadadd;
+    text-align: center;
+    font-size: 1.1rem;
+}
+p {
+    font-family: "Source Sans Pro"; 
 }
 
-h1, 
+h1 {
+    font-family: "Passions Conflict", cursive;
+    text-align: center;
+}
 h2,
 h3,
 h4 {
-    font-family: "Passions Conflict", cursive;
+    padding-top: 2rem; /* rem means proportional to the root font size */
+    text-align: center;
 }
 
-h4 {
-    padding-top: 2rem; /* rem means proportional to the root font size */
+.button {
+    background-color: Transparent;
+    border: none;
+}
+
+.container {
+    padding: 10px;
+    width: 45em;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #6eadd8;
+    color: white;
+    font-size: 1.5rem;
+    display: block;
+}
+
+#specialHeader {
+    background-color:rgb(104, 199, 151);
+}
+
+.storyImage {
+    border: 0.1rem solid black;
 }
