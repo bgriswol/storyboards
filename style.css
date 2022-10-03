@@ -30,7 +30,8 @@ body {
     font-family: "Source Sans Pro"; 
     background-color: #fadadd;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    padding: 50px;
 }
 p {
     font-family: "Source Sans Pro"; 
@@ -70,6 +71,12 @@ h4 {
     background-color:rgb(104, 199, 151);
 }
 
+#storyHeader {
+    display:inline-flex;
+}
 .storyImage {
     border: 0.1rem solid black;
+    width: 30rem;
+    height: 22rem;  
+    object-fit: cover;
 }
